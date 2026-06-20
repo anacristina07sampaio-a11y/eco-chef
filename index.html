@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -53,18 +50,18 @@
         .extra-section { border-radius: 10px; padding: 14px 16px; margin-top: 14px; font-size: 0.92rem; line-height: 1.7; }
         .extra-section h3 { font-family: 'Playfair Display', serif; font-size: 1rem; margin-bottom: 6px; }
 
-        .sec-acomp { background: #f0f7eb; border-left: 4px solid #2e5c1e; color: #2e4a18; }
+        .sec-acomp { background: #eef7e8; border-left: 4px solid #2e5c1e; color: #2e4a18; }
         .sec-acomp h3 { color: #2e5c1e; }
-        .sec-beb { background: #fff8f0; border-left: 4px solid #e07b20; color: #6b3a0f; }
-        .sec-beb h3 { color: #e07b20; }
-        .sec-dica { background: #fffbe6; border-left: 4px solid #f0c040; color: #5a4800; }
-        .sec-dica h3 { color: #b8860b; }
-        .sec-aprov { background: #f0faf5; border-left: 4px solid #2e8b57; color: #1a4a30; }
-        .sec-aprov h3 { color: #2e8b57; }
-        .sec-curio { background: #f5f0ff; border-left: 4px solid #7c5cbf; color: #3d2b6b; }
-        .sec-curio h3 { color: #7c5cbf; }
-        .sec-mem { background: #fff5f5; border-left: 4px solid #c0574a; color: #6b2020; font-style: italic; }
-        .sec-mem h3 { color: #c0574a; font-style: normal; }
+        .sec-beb { background: #f2f9ed; border-left: 4px solid #2e5c1e; color: #2e4a18; }
+        .sec-beb h3 { color: #2e5c1e; }
+        .sec-dica { background: #edf6e7; border-left: 4px solid #2e5c1e; color: #2e4a18; }
+        .sec-dica h3 { color: #2e5c1e; }
+        .sec-aprov { background: #f4faf0; border-left: 4px solid #2e5c1e; color: #2e4a18; }
+        .sec-aprov h3 { color: #2e5c1e; }
+        .sec-curio { background: #f6fbf3; border-left: 4px solid #2e5c1e; color: #2e4a18; }
+        .sec-curio h3 { color: #2e5c1e; }
+        .sec-mem { background: #f1f8ec; border-left: 4px solid #2e5c1e; color: #2e4a18; font-style: italic; }
+        .sec-mem h3 { color: #2e5c1e; font-style: normal; }
 
         .divider { border: none; border-top: 1px solid #e0ddd5; margin: 28px 0 24px; }
 
@@ -73,6 +70,51 @@
         .btn-whatsapp svg { flex-shrink: 0; }
 
         footer { margin-top: 32px; text-align: center; color: #aaa; font-size: 0.8rem; }
+
+        /* ===== Responsivo para tablet e computador ===== */
+        @media (min-width: 768px) {
+            body {
+                padding: 40px 20px 60px;
+            }
+
+            header h1 {
+                font-size: 3rem;
+            }
+
+            header p {
+                max-width: 460px;
+                font-size: 1.05rem;
+            }
+
+            .container {
+                max-width: 680px;
+                padding: 40px 48px;
+            }
+
+            .button-group {
+                max-width: 420px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .recipe-img {
+                max-height: 320px;
+            }
+
+            .extra-section {
+                padding: 18px 22px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                max-width: 760px;
+            }
+
+            header h1 {
+                font-size: 3.4rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -130,7 +172,7 @@
                 imagem: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600",
                 badge: "🍲 Salgado · Inverno",
                 titulo: "Sopa Cremosa de Pinhão com Carne Seca",
-                texto: `<strong>Tempo:</strong> 50 min<br><br><strong>Ingredientes:</strong> 500g de pinhão cozido e descascado · 200g de carne seca dessalgada e desfiada · 200ml de leite de coco · 1 cebola · 3 dentes de alho · caldo de legumes · cebolinha · sal e pimenta a gosto.<br><br><strong>Modo de Preparo:</strong><br>1. Bata metade do pinhão cozido com o leite de coco no liquidificador até obter um creme liso.<br>2. Refogue a carne seca com cebola e alho em uma panela com um fio de azeite.<br>3. Acrescente o creme de pinhão e os pinhões inteiros restantes. Ajuste o sal.<br>4. Deixe apurar em fogo baixo por 10 minutes, mexendo de vez em quando.<br>5. Finalize com cebolinha fresca picada e sirva bem quente.`,
+                texto: `<strong>Tempo:</strong> 50 min<br><br><strong>Ingredientes:</strong> 500g de pinhão cozido e descascado · 200g de carne seca dessalgada e desfiada · 200ml de leite de coco · 1 cebola · 3 dentes de alho · caldo de legumes · cebolinha · sal e pimenta a gosto.<br><br><strong>Modo de Preparo:</strong><br>1. Bata metade do pinhão cozido com o leite de coco no liquidificador até obter um creme liso.<br>2. Refogue a carne seca com cebola e alho em uma panela com um fio de azeite.<br>3. Acrescente o creme de pinhão e os pinhões inteiros restantes. Ajuste o sal.<br>4. Deixe apurar em fogo baixo por 10 minutos, mexendo de vez em quando.<br>5. Finalize com cebolinha fresca picada e sirva bem quente.`,
                 acomp: `<h3>🍽️ Acompanhamentos</h3>Arroz branco soltinho · Pão de queijo quentinho · Salada verde com rúcula e tomate · Farofa crocante de manteiga`,
                 beb: `<h3>🥤 Harmonização</h3>Chá preto com limão · Suco de laranja natural · Cachaça artesanal gelada · Água com rodelas de limão e hortelã`,
                 dica: `<h3>💡 Dica Eco-Chef</h3>Para dessalgar a carne seca mais rápido, troque a água pelo menos três vezes ao longo do dia anterior. Se quiser acelerar, cozinhe na pressão por 15 minutos e descarte a água antes de usar.`,
@@ -195,7 +237,7 @@
                 imagem: "https://images.unsplash.com/photo-1543168256-418811576b50?w=600",
                 badge: "🍑 Doce",
                 titulo: "Pêssego ao Vinho Branco com Farofa Crocante",
-                texto: `<strong>Tempo:</strong> 20 min<br><br><strong>Ingredientes:</strong> 4 pêssegos maduros · 1 taça de vinho branco seco · 2 colheres de açúcar · sorvete de creme · biscoito de amêndoas ou maisena triturado para a farofa.<br><br><strong>Modo de Preparo:</strong><br>1. Corte os pêssegos ao meio e retire o caroço.<br>2. Leve ao fogo numa frigideira com o vinho e o açúcar.<br>3. Cozinhe em fogo médio por 8 a 10 minutos, virando na metade, até ficarem macios e a calda reduzir.<br>4. Sirva com uma bola de sorvete de creme e polvilhe a farofa de biscuit por cima.`,
+                texto: `<strong>Tempo:</strong> 20 min<br><br><strong>Ingredientes:</strong> 4 pêssegos maduros · 1 taça de vinho branco seco · 2 colheres de açúcar · sorvete de creme · biscoito de amêndoas ou maisena triturado para a farofa.<br><br><strong>Modo de Preparo:</strong><br>1. Corte os pêssegos ao meio e retire o caroço.<br>2. Leve ao fogo numa frigideira com o vinho e o açúcar.<br>3. Cozinhe em fogo médio por 8 a 10 minutos, virando na metade, até ficarem macios e a calda reduzir.<br>4. Sirva com uma bola de sorvete de creme e polvilhe a farofa de biscoito por cima.`,
                 acomp: `<h3>🍽️ Acompanhamentos</h3>Sorvete de baunilha ou de nozes · Chantilly natural · Biscoitos amanteigados · Calda de chocolate amargo`,
                 beb: `<h3>🥤 Harmonização</h3>O próprio vinho branco usado na receita · Espumante gelado · Chá de pêssego com baunilha · Suco de uva integral`,
                 dica: `<h3>💡 Dica Eco-Chef</h3>Escolha pêssegos firmes mas maduros — os muito moles desmancham na frigideira. Se não encontrar pêssegos frescos, os em calda (bem escorridos) também funcionam muito bem nessa receita.`,
